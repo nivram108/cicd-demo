@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class PersonController {
     @RequestMapping("/name")
     public String getName() {
-        return "Marvin";
+        return "Marvin Yang";
     }
 }
